@@ -1,0 +1,10 @@
+linux:1 0
+gcc:2 0
+linux:2 0
+gcc:1 0
+fpc:1 1
+make:3 1
+gcc:3 0
+linux:3 1
+ld:3 0
+

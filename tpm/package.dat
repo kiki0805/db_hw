@@ -1,0 +1,14 @@
+linux:1
+linux:2
+linux:3
+gcc:1 linux:1
+gcc:2 linux:2
+gcc:3 linux:3
+fpc:1 gcc:1
+fpc:2 gcc:2
+fpc:3 gcc:3
+ld:1 gcc:1 linux:1
+ld:3 gcc:3 linux:3
+make:1 gcc:1 linux:1
+make:3 gcc:3 linux:3 ld:3
+all:3 make:3 fpc:3
